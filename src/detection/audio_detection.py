@@ -98,6 +98,8 @@ class AudioMonitor:
             if any(word in text for word in ['help', 'answer', 'whisper']):
                 if self.alert_system:
                     self.alert_system.speak_alert("SPEECH_VIOLATION")
+                if self.alert_logger:
+                    self.alert_logger.log_alert("SPEECH_VIOLATION", f"Suspicious speech detected: {text}")
                     
         except Exception as e:
             if self.alert_logger:

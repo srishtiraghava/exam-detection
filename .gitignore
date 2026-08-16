@@ -14,7 +14,7 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
+/lib/
 lib64/
 parts/
 sdist/
@@ -126,6 +126,9 @@ models/
 # Report files
 reports/
 
+# Local application database
+data/
+
 # IDE specific files
 .idea/
 .vscode/
@@ -135,3 +138,8 @@ reports/
 # Config files (except default templates)
 config/alerts.yaml
 # config/config.yaml
+
+# Frontend dependencies and build artifacts
+node_modules/
+.next/
+*.tsbuildinfo
