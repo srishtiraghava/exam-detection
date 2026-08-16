@@ -1,0 +1,2786 @@
+[
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_231723_813778",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.10111139068859062,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:17:23"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_231724_153541",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.10806728952856852,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:17:23"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_231724_401641",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.10351578954417111,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:17:24"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_231724_672201",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.09228796238848051,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:17:24"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_231802_448559",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "right",
+        "eye_ratio": 0.32686064805481807,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:18:02"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_231802_708725",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "right",
+        "eye_ratio": 0.23235925950098552,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:18:02"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_231803_053160",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.37553723562060537,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:18:02"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_231803_314231",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.37553723562060537,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:18:03"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_231803_597736",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.37553723562060537,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:18:03"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_231819_180666",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "right",
+        "eye_ratio": 0.12567464868951914,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:18:18"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_231819_310815",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "right",
+        "eye_ratio": 0.12567464868951914,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:18:19"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_231819_494079",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "right",
+        "eye_ratio": 0.12567464868951914,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:18:19"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_231819_600250",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "right",
+        "eye_ratio": 0.12567464868951914,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:18:19"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_231819_806782",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "right",
+        "eye_ratio": 0.12567464868951914,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:18:19"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_231820_067077",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "right",
+        "eye_ratio": 0.12567464868951914,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:18:19"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_231820_189067",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "right",
+        "eye_ratio": 0.12567464868951914,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:18:20"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_231820_335792",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "right",
+        "eye_ratio": 0.12567464868951914,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:18:20"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_231820_458864",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "right",
+        "eye_ratio": 0.12567464868951914,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:18:20"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_231820_619794",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "right",
+        "eye_ratio": 0.12567464868951914,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:18:20"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_231820_862119",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "right",
+        "eye_ratio": 0.12567464868951914,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:18:20"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_231820_979618",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "right",
+        "eye_ratio": 0.12567464868951914,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:18:20"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_231821_148662",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "right",
+        "eye_ratio": 0.12567464868951914,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:18:21"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_231821_261212",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "right",
+        "eye_ratio": 0.12567464868951914,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:18:21"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_231821_415043",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "right",
+        "eye_ratio": 0.12567464868951914,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:18:21"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_231821_667930",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "right",
+        "eye_ratio": 0.12567464868951914,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:18:21"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_231821_787632",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "right",
+        "eye_ratio": 0.12567464868951914,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:18:21"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_231822_036751",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "right",
+        "eye_ratio": 0.12567464868951914,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:18:21"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_231822_146903",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "right",
+        "eye_ratio": 0.12567464868951914,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:18:22"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_231822_311606",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "right",
+        "eye_ratio": 0.12567464868951914,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:18:22"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_231822_535808",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "right",
+        "eye_ratio": 0.12567464868951914,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:18:22"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_231822_643238",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "right",
+        "eye_ratio": 0.12567464868951914,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:18:22"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_231822_817699",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "right",
+        "eye_ratio": 0.12567464868951914,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:18:22"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_231822_942786",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "right",
+        "eye_ratio": 0.12567464868951914,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:18:22"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_231823_123351",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "right",
+        "eye_ratio": 0.12567464868951914,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:18:22"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_231823_480169",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "right",
+        "eye_ratio": 0.12567464868951914,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:18:23"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_231823_723854",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "right",
+        "eye_ratio": 0.12567464868951914,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:18:23"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_231824_005131",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "right",
+        "eye_ratio": 0.12567464868951914,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:18:23"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_231824_233685",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "right",
+        "eye_ratio": 0.12567464868951914,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:18:24"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_231824_479810",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "right",
+        "eye_ratio": 0.12567464868951914,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:18:24"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_231824_732843",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "right",
+        "eye_ratio": 0.12567464868951914,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:18:24"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_231824_855023",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "right",
+        "eye_ratio": 0.12567464868951914,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:18:24"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_231825_031372",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "right",
+        "eye_ratio": 0.12567464868951914,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:18:24"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_231825_171175",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "right",
+        "eye_ratio": 0.12567464868951914,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:18:25"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_231825_360461",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "right",
+        "eye_ratio": 0.12567464868951914,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:18:25"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232047_207222",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.1636357526210763,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:20:46"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232047_349829",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.201582481234131,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:20:47"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232047_540024",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.15612965631302908,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:20:47"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232047_661933",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.1734949430006685,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:20:47"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232047_843206",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.17524794385236286,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:20:47"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232048_115982",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.20634805848232204,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:20:47"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232048_307295",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.2036375962753642,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:20:48"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232048_443532",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.1560604823754992,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:20:48"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232048_628404",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.16946419170437374,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:20:48"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232048_744241",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.1619382807784609,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:20:48"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232048_987999",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.1450029007047443,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:20:48"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232049_111668",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.15812355956786328,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:20:49"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232049_325137",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.16489883156518886,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:20:49"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232049_594684",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.23720807133723548,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:20:49"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232049_712011",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.21053212074582256,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:20:49"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232050_016841",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.18179839849547105,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:20:49"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232050_136888",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.19039574977015478,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:20:50"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232050_336896",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.2032918172258617,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:20:50"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232050_465082",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.23849812409269708,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:20:50"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232050_663768",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.21453879883024504,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:20:50"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232050_979751",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.18576139083356688,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:20:50"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232051_098546",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.17742378342528614,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:20:51"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232051_274861",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.18794146141226523,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:20:51"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232051_397069",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.18101423055877383,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:20:51"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232051_572982",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.16105806066784642,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:20:51"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232051_930581",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.18776301285648542,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:20:51"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232052_052990",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.18776301285648542,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:20:51"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232052_231916",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.18776301285648542,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:20:52"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232052_372684",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.2793702468243686,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:20:52"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232052_550814",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.2793702468243686,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:20:52"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232521_545037",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.21837507969468734,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:25:21"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232521_763474",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.23102847290609663,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:25:21"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232521_894744",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.20391982318832821,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:25:21"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232522_136805",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.2657209941420318,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:25:21"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232522_284649",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.22224569710464812,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:25:22"
+      }
+    }
+  },
+  {
+    "type": "MOUTH_MOVING",
+    "timestamp": "20260816_232523_936615",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": true,
+        "gaze_direction": "center",
+        "eye_ratio": 0.08325683716180679,
+        "mouth_moving": true,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:25:23"
+      }
+    }
+  },
+  {
+    "type": "MOUTH_MOVING",
+    "timestamp": "20260816_232526_946586",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": true,
+        "gaze_direction": "right",
+        "eye_ratio": 0.26027210384816757,
+        "mouth_moving": true,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:25:26"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232550_771499",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.2942814955310797,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:25:50"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232550_916707",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.3222304873951325,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:25:50"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232551_108734",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.31173689820427075,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:25:50"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232551_292999",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.31249580305545355,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:25:51"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232551_415871",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.32967173252635573,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:25:51"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232552_726725",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.11357541187995823,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:25:52"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232552_913784",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.29482564573585807,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:25:52"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232553_050654",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.12913269315236003,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:25:52"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232553_310224",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.12497022618434489,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:25:53"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232553_606614",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.13327605069077897,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:25:53"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232553_906733",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.12476822860302286,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:25:53"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232554_112276",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.12570159034334621,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:25:53"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232554_229001",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.11085699385004358,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:25:54"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232554_423564",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.10532791991640217,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:25:54"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232554_546881",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.12476087135540118,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:25:54"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232554_936817",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.11011592644098106,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:25:54"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232555_155917",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.12979974458161558,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:25:54"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232555_386768",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.09905720995600586,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:25:55"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232555_507552",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.3186738408049618,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:25:55"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232555_707484",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.3072567683146117,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:25:55"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232555_972484",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.3263722616146265,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:25:55"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232556_102553",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.3324575165236358,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:25:55"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232556_369366",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.2756935565683649,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:25:56"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232556_608289",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.28505525587507063,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:25:56"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232556_800064",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.2775819984033923,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:25:56"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232557_077545",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.27461418608491855,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:25:56"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232557_359709",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.18928506944119888,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:25:57"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232557_657195",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.2793059258452284,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:25:57"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232557_927406",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.2802616819141992,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:25:57"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232558_206960",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.15301908521175503,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:25:57"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232600_570717",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.3102865975713603,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:26:00"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232600_701402",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.32813626679816804,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:26:00"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232600_948147",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.3350564971844844,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:26:00"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232601_212932",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.29385883127681345,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:26:00"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232601_452064",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.3245450634435528,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:26:01"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232604_699470",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.3052600665974852,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:26:04"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232604_840094",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.30694800670505584,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:26:04"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232605_033651",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.31835215535778993,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:26:04"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232605_228599",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.31042151565260273,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:26:05"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232605_483525",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.3099892436855227,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:26:05"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232605_766843",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.3049628223548462,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:26:05"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232605_956546",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.3000826325958542,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:26:05"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232606_097542",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.31745072101207816,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:26:05"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232606_316902",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.29602746844842787,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:26:06"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232606_504576",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.31125320640954235,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:26:06"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232606_805008",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.3090274367393091,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:26:06"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232606_928757",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.2889888245068107,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:26:06"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232607_160510",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.2907524052725924,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:26:06"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232607_445629",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.3234416273635515,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:26:07"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232607_730950",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.30565024901483817,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:26:07"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232608_176632",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.29241841819113834,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:26:07"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232608_350860",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.32402637058927397,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:26:08"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232608_485005",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.33035590837829,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:26:08"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232608_702959",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.12366646089078284,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:26:08"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232608_919379",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.10807329927061392,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:26:08"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232609_260755",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.14065661064147036,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:26:08"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232609_470814",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.15818252314117942,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:26:09"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232609_687515",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.1303208096511873,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:26:09"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232609_962840",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.17020731841616524,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:26:09"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232610_247872",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.28655228581694847,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:26:09"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232612_112680",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.3333247796869671,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:26:11"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232612_328653",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.3106728692438603,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:26:12"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232612_547978",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.30789142379429135,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:26:12"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232612_673810",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.33845823230368377,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:26:12"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232612_900143",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.3299517689920122,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:26:12"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232614_145722",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.3292043568692009,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:26:13"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232614_284801",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.31913409881354676,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:26:14"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232614_500989",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.32034385622895534,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:26:14"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232614_637792",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.3073432516102566,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:26:14"
+      }
+    }
+  },
+  {
+    "type": "FACE_DISAPPEARED",
+    "timestamp": "20260816_232614_815058",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": false,
+        "gaze_direction": "left",
+        "eye_ratio": 0.3225321667007416,
+        "mouth_moving": false,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:26:14"
+      }
+    }
+  },
+  {
+    "type": "MOUTH_MOVING",
+    "timestamp": "20260816_232712_913450",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": true,
+        "gaze_direction": "center",
+        "eye_ratio": 0.30319815407570105,
+        "mouth_moving": true,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:27:12"
+      }
+    }
+  },
+  {
+    "type": "MOUTH_MOVING",
+    "timestamp": "20260816_232713_281425",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": true,
+        "gaze_direction": "center",
+        "eye_ratio": 0.2968851882870288,
+        "mouth_moving": true,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:27:12"
+      }
+    }
+  },
+  {
+    "type": "MOUTH_MOVING",
+    "timestamp": "20260816_232713_521409",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": true,
+        "gaze_direction": "center",
+        "eye_ratio": 0.26724269228024866,
+        "mouth_moving": true,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:27:13"
+      }
+    }
+  },
+  {
+    "type": "MOUTH_MOVING",
+    "timestamp": "20260816_232713_813142",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": true,
+        "gaze_direction": "center",
+        "eye_ratio": 0.2537033836371059,
+        "mouth_moving": true,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:27:13"
+      }
+    }
+  },
+  {
+    "type": "MOUTH_MOVING",
+    "timestamp": "20260816_232714_039886",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": true,
+        "gaze_direction": "center",
+        "eye_ratio": 0.23807176555521514,
+        "mouth_moving": true,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:27:13"
+      }
+    }
+  },
+  {
+    "type": "MOUTH_MOVING",
+    "timestamp": "20260816_232714_235013",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": true,
+        "gaze_direction": "center",
+        "eye_ratio": 0.2502476038657919,
+        "mouth_moving": true,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:27:14"
+      }
+    }
+  },
+  {
+    "type": "MOUTH_MOVING",
+    "timestamp": "20260816_232714_641612",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": true,
+        "gaze_direction": "center",
+        "eye_ratio": 0.25706125418023557,
+        "mouth_moving": true,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:27:14"
+      }
+    }
+  },
+  {
+    "type": "MOUTH_MOVING",
+    "timestamp": "20260816_232714_913476",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": true,
+        "gaze_direction": "center",
+        "eye_ratio": 0.2572352357303408,
+        "mouth_moving": true,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:27:14"
+      }
+    }
+  },
+  {
+    "type": "MOUTH_MOVING",
+    "timestamp": "20260816_232715_248529",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": true,
+        "gaze_direction": "center",
+        "eye_ratio": 0.23255670868449282,
+        "mouth_moving": true,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:27:14"
+      }
+    }
+  },
+  {
+    "type": "MOUTH_MOVING",
+    "timestamp": "20260816_232715_462202",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": true,
+        "gaze_direction": "center",
+        "eye_ratio": 0.22898926378587098,
+        "mouth_moving": true,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:27:15"
+      }
+    }
+  },
+  {
+    "type": "MOUTH_MOVING",
+    "timestamp": "20260816_232715_673447",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": true,
+        "gaze_direction": "center",
+        "eye_ratio": 0.22341178083913293,
+        "mouth_moving": true,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:27:15"
+      }
+    }
+  },
+  {
+    "type": "MOUTH_MOVING",
+    "timestamp": "20260816_232716_002792",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": true,
+        "gaze_direction": "center",
+        "eye_ratio": 0.22048221952714725,
+        "mouth_moving": true,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:27:15"
+      }
+    }
+  },
+  {
+    "type": "MOUTH_MOVING",
+    "timestamp": "20260816_232716_297804",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": true,
+        "gaze_direction": "center",
+        "eye_ratio": 0.04523014040773891,
+        "mouth_moving": true,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:27:16"
+      }
+    }
+  },
+  {
+    "type": "MOUTH_MOVING",
+    "timestamp": "20260816_232716_556597",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": true,
+        "gaze_direction": "center",
+        "eye_ratio": 0.10347119469475285,
+        "mouth_moving": true,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:27:16"
+      }
+    }
+  },
+  {
+    "type": "MOUTH_MOVING",
+    "timestamp": "20260816_232716_823493",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": true,
+        "gaze_direction": "center",
+        "eye_ratio": 0.04847573536328395,
+        "mouth_moving": true,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:27:16"
+      }
+    }
+  },
+  {
+    "type": "MOUTH_MOVING",
+    "timestamp": "20260816_232717_092840",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": true,
+        "gaze_direction": "center",
+        "eye_ratio": 0.04271369058560838,
+        "mouth_moving": true,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:27:16"
+      }
+    }
+  },
+  {
+    "type": "MOUTH_MOVING",
+    "timestamp": "20260816_232717_560619",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": true,
+        "gaze_direction": "center",
+        "eye_ratio": 0.06494045483124386,
+        "mouth_moving": true,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:27:17"
+      }
+    }
+  },
+  {
+    "type": "MOUTH_MOVING",
+    "timestamp": "20260816_232717_757647",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": true,
+        "gaze_direction": "center",
+        "eye_ratio": 0.23860074963199424,
+        "mouth_moving": true,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:27:17"
+      }
+    }
+  },
+  {
+    "type": "MOUTH_MOVING",
+    "timestamp": "20260816_232717_964898",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": true,
+        "gaze_direction": "center",
+        "eye_ratio": 0.23035561194786683,
+        "mouth_moving": true,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:27:17"
+      }
+    }
+  },
+  {
+    "type": "MOUTH_MOVING",
+    "timestamp": "20260816_232718_092026",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": true,
+        "gaze_direction": "center",
+        "eye_ratio": 0.07134551433050856,
+        "mouth_moving": true,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:27:17"
+      }
+    }
+  },
+  {
+    "type": "MOUTH_MOVING",
+    "timestamp": "20260816_232718_345853",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": true,
+        "gaze_direction": "center",
+        "eye_ratio": 0.12961733861135516,
+        "mouth_moving": true,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:27:18"
+      }
+    }
+  },
+  {
+    "type": "MOUTH_MOVING",
+    "timestamp": "20260816_232718_736517",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": true,
+        "gaze_direction": "center",
+        "eye_ratio": 0.20534155764312037,
+        "mouth_moving": true,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:27:18"
+      }
+    }
+  },
+  {
+    "type": "MOUTH_MOVING",
+    "timestamp": "20260816_232718_877817",
+    "metadata": {
+      "duration": "5+ seconds",
+      "frame": {
+        "face_present": true,
+        "gaze_direction": "center",
+        "eye_ratio": 0.2136693508224391,
+        "mouth_moving": true,
+        "multiple_faces": false,
+        "objects_detected": false,
+        "timestamp": "2026-08-16 23:27:18"
+      }
+    }
+  }
+]

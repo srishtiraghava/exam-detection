@@ -1,8 +1,8 @@
-from flask import Flask, render_template, jsonify
+from flask import Flask, render_template, jsonify, request
 import os
 import yaml
 from datetime import datetime
-
+from services.keystroke_verification import KeystrokeVerifier
 
 # ============================================================
 # PATH CONFIGURATION
@@ -181,6 +181,40 @@ def get_stats():
         "cheating_probability": 15,
         "last_alert": datetime.now().strftime("%H:%M:%S")
     })
+
+# ============================================================
+# EXAM INTERFACE & VERIFICATION
+# ============================================================
+
+@app.route("/exam")
+def exam_interface():
+    return render_template("exam_interface.html")
+
+@app.route("/api/exam/keystroke-verification", methods=["POST"])
+def verify_keystrokes():
+    payload = request.json
+    if not payload:
+        return jsonify({"error": "No payload provided"}), 400
+        
+    verifier = KeystrokeVerifier()
+    result = verifier.verify_payload(payload)
+    
+    # Log to alerts.log if tampered or anomaly detected
+    if result["integrity"] == "TAMPERED" or result["anomaly"]:
+        log_path = config.get("logging", {}).get("log_path", os.path.join(PROJECT_ROOT, "logs"))
+        log_file = os.path.join(log_path, "alerts.log")
+        
+        os.makedirs(log_path, exist_ok=True)
+        with open(log_file, "a", encoding="utf-8") as f:
+            timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            alert_msg = f"[{timestamp}] "
+            if result['integrity'] == 'TAMPERED':
+                alert_msg += f"MERKLE_TAMPERING detected! Server root: {result['serverRoot'][:8]}..."
+            else:
+                alert_msg += f"KEYSTROKE_ANOMALY detected! Variance: {result['metrics']['variance']}"
+            f.write(alert_msg + "\n")
+            
+    return jsonify(result)
 
 
 # ============================================================

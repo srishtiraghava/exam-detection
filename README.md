@@ -18,6 +18,7 @@ A computer vision system that detects suspicious activities during online exams 
 - **Audio Detection**: Monitors for voice/whispering in student's environment
 - **Alert Speaker**: Delivers real-time verbal warnings via text-to-speech
 - **Report Generation**: Creates detailed visual PDF and HTML reports with violations summary, heatmaps, and activity timeline  
+- **Keystroke Dynamics & Cryptographic Verification**: Captures timing metrics (Hold Time, Inter-Key Gap) to detect suspicious typing behavior, backed by a Merkle Tree for payload integrity (accessible via `/exam` mock interface).
 
 
 ## Technologies Used
@@ -107,6 +108,29 @@ python src/main.py
 python src/dashboard/app.py
 ```
 4. Access the dashboard at `http://localhost:5000`
+5. Access the mock exam verification interface at `http://localhost:5000/exam`
+
+## Keystroke Dynamics & Cryptographic Verification
+
+This feature provides client-side behavioral analysis and cryptographic integrity for typing patterns.
+
+### What is Collected
+- **Hold Time (HT)**: Duration between keydown and keyup.
+- **Inter-Key Gap (IKG)**: Duration between the previous keyup and current keydown.
+- **Sequence and Timestamps**: Relative timing data of the keystrokes.
+
+### What is NOT Collected
+- **Actual Typed Characters**: We do not store `event.key`, `event.code`, words, or passwords. This ensures candidate privacy.
+
+### Cryptographic Integrity (Merkle Tree)
+To prevent payload tampering before submission, the browser constructs a **SHA-256 Merkle Tree** over the deterministic sequence of typing events. The client sends the payload and the calculated Merkle Root to the server. The Flask backend independently recomputes the Merkle Root from the payload and verifies it.
+
+If any of the following occur, the server will log a `MERKLE_TAMPERING` alert:
+- An event was deleted, added, or reordered.
+- A timestamp, Hold Time, or Inter-Key Gap was modified.
+
+### Behavioral Anomaly Detection
+The server independently calculates variance and counts the number of unusually fast keystrokes (IKG < 25ms). If it detects near-zero variance or a high ratio of suspicious events, it logs a `KEYSTROKE_ANOMALY` alert, which is displayed in the dashboard.
 
 ## System Architecture
 ```

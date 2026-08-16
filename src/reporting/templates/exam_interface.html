@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mock Exam Interface</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 20px; background-color: #f0f2f5; }
+        .exam-container { max-width: 800px; margin: 0 auto; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .header { display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #eee; padding-bottom: 10px; margin-bottom: 20px; }
+        .verification-badge { background-color: #e8f5e9; color: #2e7d32; padding: 5px 10px; border-radius: 4px; font-size: 14px; display: flex; align-items: center; }
+        .verification-badge::before { content: '✓'; margin-right: 5px; }
+        textarea { width: 100%; height: 200px; padding: 10px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; margin-bottom: 20px; resize: vertical; box-sizing: border-box; }
+        button { background-color: #1976d2; color: white; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer; font-size: 16px; }
+        button:hover { background-color: #1565c0; }
+        button:disabled { background-color: #aaa; cursor: not-allowed; }
+        .status { margin-top: 15px; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="exam-container">
+        <div class="header">
+            <h2>Exam Question 1</h2>
+            <div class="verification-badge">Behavioral verification active</div>
+        </div>
+        
+        <p>Please write a short essay explaining the architecture of a Merkle Tree.</p>
+        
+        <textarea id="answerBox" placeholder="Type your answer here..."></textarea>
+        
+        <button id="submitBtn">Submit Exam</button>
+        <div id="statusMsg" class="status"></div>
+    </div>
+
+    <script src="/static/js/keystrokeMonitor.js"></script>
+    <script src="/static/js/merkleTree.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const monitor = new KeystrokeMonitor();
+            monitor.startMonitoring(document.getElementById('answerBox'));
+            
+            const submitBtn = document.getElementById('submitBtn');
+            const statusMsg = document.getElementById('statusMsg');
+
+            submitBtn.addEventListener('click', async () => {
+                submitBtn.disabled = true;
+                statusMsg.textContent = 'Processing submission...';
+                
+                try {
+                    const events = monitor.getEvents();
+                    const metrics = monitor.getMetrics();
+                    const clientMerkleRoot = await MerkleTree.generateTree(events);
+                    
+                    // Mock session ID
+                    const examSessionId = "SESSION-" + Math.random().toString(36).substr(2, 9);
+                    
+                    const payload = {
+                        examSessionId: examSessionId,
+                        events: events,
+                        clientMerkleRoot: clientMerkleRoot,
+                        metrics: metrics
+                    };
+
+                    const response = await fetch('/api/exam/keystroke-verification', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify(payload)
+                    });
+                    
+                    const result = await response.json();
+                    
+                    if (response.ok) {
+                        statusMsg.style.color = 'green';
+                        statusMsg.textContent = 'Exam submitted successfully! Integrity: ' + result.integrity;
+                    } else {
+                        statusMsg.style.color = 'red';
+                        statusMsg.textContent = 'Submission failed: ' + result.error;
+                    }
+                } catch (err) {
+                    console.error(err);
+                    statusMsg.style.color = 'red';
+                    statusMsg.textContent = 'An error occurred during submission.';
+                } finally {
+                    submitBtn.disabled = false;
+                }
+            });
+        });
+    </script>
+</body>
+</html>
