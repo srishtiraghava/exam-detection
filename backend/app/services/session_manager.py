@@ -1,13 +1,13 @@
 from datetime import datetime
 from uuid import uuid4
 
-from backend.app.schemas.events import RealtimeEvent
-from backend.app.schemas.incidents import Evidence, Incident
-from backend.app.schemas.reports import Report
-from backend.app.schemas.sessions import CandidateSession, CandidateSessionCreate, DetectionStatus
-from backend.app.services.event_bus import event_bus
-from backend.app.storage.database import initialize_database
-from backend.app.storage.repository import repository
+from app.schemas.events import RealtimeEvent
+from app.schemas.incidents import Evidence, Incident
+from app.schemas.reports import Report
+from app.schemas.sessions import CandidateSession, CandidateSessionCreate, DetectionStatus
+from app.services.event_bus import event_bus
+from app.storage.database import initialize_database
+from app.storage.repository import repository
 
 
 class SessionManager:
@@ -128,3 +128,4 @@ class SessionManager:
 
 
 session_manager = SessionManager()
+

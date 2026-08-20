@@ -3,7 +3,7 @@ import sqlite3
 from pathlib import Path
 from typing import Any, Iterable
 
-from backend.app.core.config import get_settings
+from app.core.config import get_settings
 
 
 DB_PATH = get_settings().root_dir / "data" / "exam_proctoring.sqlite3"
@@ -98,3 +98,4 @@ def loads_json(value: str | None) -> dict[str, Any]:
 
 def rows_to_list(rows: Iterable[sqlite3.Row]) -> list[sqlite3.Row]:
     return list(rows)
+

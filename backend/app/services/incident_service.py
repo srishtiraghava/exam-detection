@@ -2,9 +2,9 @@ from datetime import datetime
 from time import monotonic
 from uuid import uuid4
 
-from backend.app.schemas.incidents import Evidence, Incident, IncidentType
-from backend.app.schemas.sessions import DetectionStatus
-from backend.app.services.session_manager import session_manager
+from app.schemas.incidents import Evidence, Incident, IncidentType
+from app.schemas.sessions import DetectionStatus
+from app.services.session_manager import session_manager
 
 
 SEVERITY = {
@@ -63,3 +63,4 @@ class IncidentService:
 
 def build_evidence(kind: str, path: str) -> Evidence:
     return Evidence(id=str(uuid4()), kind=kind, path=path)
+

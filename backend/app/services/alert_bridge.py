@@ -1,8 +1,8 @@
 import asyncio
 from typing import Any
 
-from backend.app.schemas.incidents import IncidentType
-from backend.app.services.incident_service import IncidentService
+from app.schemas.incidents import IncidentType
+from app.services.incident_service import IncidentService
 from utils.logging import AlertLogger
 
 
@@ -31,3 +31,4 @@ class IncidentAlertLogger(AlertLogger):
                 self.loop,
             )
         return entry
+

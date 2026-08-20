@@ -1,7 +1,7 @@
 import asyncio
 from collections import defaultdict
 
-from backend.app.schemas.events import RealtimeEvent
+from app.schemas.events import RealtimeEvent
 
 
 class EventBus:
@@ -35,3 +35,4 @@ class EventBus:
 
 
 event_bus = EventBus()
+

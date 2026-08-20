@@ -1,9 +1,9 @@
 from datetime import datetime
 
-from backend.app.schemas.incidents import Evidence, Incident
-from backend.app.schemas.reports import Report
-from backend.app.schemas.sessions import CandidateSession, DetectionStatus
-from backend.app.storage.database import dumps_json, get_connection, loads_json
+from app.schemas.incidents import Evidence, Incident
+from app.schemas.reports import Report
+from app.schemas.sessions import CandidateSession, DetectionStatus
+from app.storage.database import dumps_json, get_connection, loads_json
 
 
 def _dt(value: str | None) -> datetime | None:
@@ -249,3 +249,4 @@ class Repository:
 
 
 repository = Repository()
+

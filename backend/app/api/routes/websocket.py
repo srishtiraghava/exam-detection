@@ -1,6 +1,6 @@
 from fastapi import APIRouter, WebSocket, WebSocketDisconnect
 
-from backend.app.services.event_bus import event_bus
+from app.services.event_bus import event_bus
 
 
 router = APIRouter(tags=["websocket"])
@@ -16,3 +16,4 @@ async def session_events(websocket: WebSocket, session_id: str) -> None:
             await websocket.send_json(event.model_dump(mode="json"))
     except WebSocketDisconnect:
         await event_bus.unsubscribe(session_id, queue)
+

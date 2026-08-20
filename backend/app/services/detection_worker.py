@@ -5,11 +5,11 @@ from typing import Any
 
 import cv2
 
-from backend.app.core.config import load_detection_config
-from backend.app.schemas.sessions import DetectionStatus
-from backend.app.services.alert_bridge import IncidentAlertLogger
-from backend.app.services.incident_service import IncidentService, build_evidence
-from backend.app.services.session_manager import session_manager
+from app.core.config import load_detection_config
+from app.schemas.sessions import DetectionStatus
+from app.services.alert_bridge import IncidentAlertLogger
+from app.services.incident_service import IncidentService, build_evidence
+from app.services.session_manager import session_manager
 from detection.audio_detection import AudioMonitor
 from detection.face_detection import FaceDetector
 from detection.eye_tracking import EyeTracker
@@ -197,3 +197,4 @@ class DetectionWorker:
         if status.mouth_moving:
             return "MOUTH_MOVING"
         return None
+

@@ -1,9 +1,9 @@
 from fastapi import APIRouter, HTTPException
 
-from backend.app.schemas.sessions import CandidateSession, CandidateSessionCreate, DetectionStatus
-from backend.app.schemas.incidents import Incident
-from backend.app.services.detection_worker import DetectionWorker
-from backend.app.services.session_manager import session_manager
+from app.schemas.sessions import CandidateSession, CandidateSessionCreate, DetectionStatus
+from app.schemas.incidents import Incident
+from app.services.detection_worker import DetectionWorker
+from app.services.session_manager import session_manager
 
 
 router = APIRouter(prefix="/sessions", tags=["sessions"])
@@ -72,3 +72,4 @@ def list_incidents(session_id: str) -> list[Incident]:
     if incidents is None:
         raise HTTPException(status_code=404, detail="Session not found")
     return incidents
+

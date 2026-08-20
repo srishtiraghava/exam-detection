@@ -3,10 +3,10 @@ from pathlib import Path
 from fastapi import APIRouter, HTTPException
 from fastapi.responses import FileResponse
 
-from backend.app.schemas.reports import Report
-from backend.app.services.session_manager import session_manager
+from app.schemas.reports import Report
+from app.services.session_manager import session_manager
 from reporting.report_generator import ReportGenerator
-from backend.app.core.config import load_detection_config
+from app.core.config import load_detection_config
 
 
 router = APIRouter(prefix="/reports", tags=["reports"])
@@ -70,3 +70,4 @@ def download_report(report_id: str) -> FileResponse:
     if not path.exists() or not path.is_file():
         raise HTTPException(status_code=404, detail="Report file not found")
     return FileResponse(path)
+
