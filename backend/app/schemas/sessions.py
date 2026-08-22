@@ -26,11 +26,19 @@ class CandidateSession(BaseModel):
     started_at: datetime | None = None
     ended_at: datetime | None = None
     config_overrides: dict[str, Any] = Field(default_factory=dict)
+    exam_answers: dict[str, Any] = Field(default_factory=dict)
+    exam_score: float | None = None
+    risk_score: int | None = None
+    duration_seconds: int | None = None
+    mcq_correct: int | None = None
+    mcq_total: int | None = None
+    coding_passed: bool | None = None
 
 
 class DetectionStatus(BaseModel):
     session_id: str
     face_present: bool = False
+    face_count: int = 0
     gaze_direction: str = "center"
     eye_ratio: float = 0.3
     mouth_moving: bool = False

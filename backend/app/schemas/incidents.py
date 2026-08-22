@@ -6,6 +6,7 @@ from pydantic import BaseModel, Field
 
 IncidentType = Literal[
     "FACE_DISAPPEARED",
+    "NO_FACE",
     "GAZE_AWAY",
     "MOUTH_MOVING",
     "MULTIPLE_FACES",
@@ -13,6 +14,11 @@ IncidentType = Literal[
     "VOICE_DETECTED",
     "SPEECH_VIOLATION",
     "SESSION_RECORDING",
+    "TAB_SWITCH",
+    "FULLSCREEN_EXIT",
+    "SCREEN_SHARE_STOPPED",
+    "CAMERA_STOPPED",
+    "MICROPHONE_STOPPED",
 ]
 
 IncidentStatus = Literal["open", "reviewed", "dismissed", "confirmed"]

@@ -11,6 +11,7 @@ def _dt(value: str | None) -> datetime | None:
 
 
 def _session_from_row(row) -> CandidateSession:
+    keys = row.keys()
     return CandidateSession(
         id=row["id"],
         candidate_id=row["candidate_id"],
@@ -22,13 +23,22 @@ def _session_from_row(row) -> CandidateSession:
         started_at=_dt(row["started_at"]),
         ended_at=_dt(row["ended_at"]),
         config_overrides=loads_json(row["config_overrides"]),
+        exam_answers=loads_json(row["exam_answers"]) if "exam_answers" in keys else {},
+        exam_score=row["exam_score"] if "exam_score" in keys else None,
+        risk_score=row["risk_score"] if "risk_score" in keys else None,
+        duration_seconds=row["duration_seconds"] if "duration_seconds" in keys else None,
+        mcq_correct=row["mcq_correct"] if "mcq_correct" in keys else None,
+        mcq_total=row["mcq_total"] if "mcq_total" in keys else None,
+        coding_passed=bool(row["coding_passed"]) if "coding_passed" in keys and row["coding_passed"] is not None else None,
     )
 
 
 def _status_from_row(row) -> DetectionStatus:
+    keys = row.keys()
     return DetectionStatus(
         session_id=row["session_id"],
         face_present=bool(row["face_present"]),
+        face_count=int(row["face_count"]) if "face_count" in keys and row["face_count"] is not None else 0,
         gaze_direction=row["gaze_direction"],
         eye_ratio=row["eye_ratio"],
         mouth_moving=bool(row["mouth_moving"]),
@@ -57,9 +67,11 @@ class Repository:
                 """
                 INSERT INTO sessions (
                     id, candidate_id, candidate_name, exam_id, exam_name, status,
-                    created_at, started_at, ended_at, config_overrides
+                    created_at, started_at, ended_at, config_overrides,
+                    exam_answers, exam_score, risk_score, duration_seconds,
+                    mcq_correct, mcq_total, coding_passed
                 )
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 ON CONFLICT(id) DO UPDATE SET
                     candidate_id=excluded.candidate_id,
                     candidate_name=excluded.candidate_name,
@@ -69,7 +81,14 @@ class Repository:
                     created_at=excluded.created_at,
                     started_at=excluded.started_at,
                     ended_at=excluded.ended_at,
-                    config_overrides=excluded.config_overrides
+                    config_overrides=excluded.config_overrides,
+                    exam_answers=excluded.exam_answers,
+                    exam_score=excluded.exam_score,
+                    risk_score=excluded.risk_score,
+                    duration_seconds=excluded.duration_seconds,
+                    mcq_correct=excluded.mcq_correct,
+                    mcq_total=excluded.mcq_total,
+                    coding_passed=excluded.coding_passed
                 """,
                 (
                     session.id,
@@ -82,6 +101,13 @@ class Repository:
                     session.started_at.isoformat() if session.started_at else None,
                     session.ended_at.isoformat() if session.ended_at else None,
                     dumps_json(session.config_overrides),
+                    dumps_json(session.exam_answers),
+                    session.exam_score,
+                    session.risk_score,
+                    session.duration_seconds,
+                    session.mcq_correct,
+                    session.mcq_total,
+                    None if session.coding_passed is None else int(session.coding_passed),
                 ),
             )
 
@@ -100,12 +126,13 @@ class Repository:
             connection.execute(
                 """
                 INSERT INTO detection_statuses (
-                    session_id, face_present, gaze_direction, eye_ratio, mouth_moving,
+                    session_id, face_present, face_count, gaze_direction, eye_ratio, mouth_moving,
                     multiple_faces, objects_detected, audio_detected, error, timestamp
                 )
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 ON CONFLICT(session_id) DO UPDATE SET
                     face_present=excluded.face_present,
+                    face_count=excluded.face_count,
                     gaze_direction=excluded.gaze_direction,
                     eye_ratio=excluded.eye_ratio,
                     mouth_moving=excluded.mouth_moving,
@@ -118,6 +145,7 @@ class Repository:
                 (
                     status.session_id,
                     int(status.face_present),
+                    int(status.face_count),
                     status.gaze_direction,
                     status.eye_ratio,
                     int(status.mouth_moving),

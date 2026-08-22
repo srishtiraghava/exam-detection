@@ -1,23 +1,31 @@
 import type { Config } from "tailwindcss";
+
 const config: Config = {
   content: ["./app/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}", "./hooks/**/*.{ts,tsx}", "./lib/**/*.{ts,tsx}"],
   theme: {
     extend: {
       colors: {
-        background: "#F5F7FA",
+        canvas: "#F7F6F3",
         surface: "#FFFFFF",
-        foreground: "#0B1F3A",
-        ink: "#0B1F3A",
-        muted: "#5e5e5e",
-        line: "rgba(11, 31, 58, 0.2)",
-        accent: "#132F4C",
+        ink: "#0F172A",
+        muted: "#64748B",
+        line: "#E2E8F0",
+        brand: "#0B1F3A",
         primaryNavy: "#0B1F3A",
         secondaryNavy: "#132F4C",
-        danger: "#d32f2f",
-        success: "#2e7d32",
-      }
-    }
+        danger: "#D32F2F",
+        success: "#2E7D32",
+        warning: "#ED6C02",
+      },
+      boxShadow: {
+        card: "0 1px 2px rgba(15, 23, 42, 0.04), 0 4px 12px rgba(15, 23, 42, 0.04)",
+      },
+      borderRadius: {
+        card: "12px",
+      },
+    },
   },
-  plugins: []
+  plugins: [],
 };
+
 export default config;

@@ -3,16 +3,18 @@
 import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
 
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 import { api } from "@/lib/api";
+import { riskLabel } from "@/lib/riskScore";
 import type { CandidateSession } from "@/lib/types";
 
-const statusStyles: Record<string, string> = {
-  created: "bg-[#323232] text-[#DDD0C8] ring-1 ring-inset ring-[#DDD0C8]/30",
-  running: "bg-[#DDD0C8]/20 text-[#DDD0C8] ring-1 ring-inset ring-[#DDD0C8]/30",
-  stopping: "bg-[#DDD0C8]/15 text-[#DDD0C8] ring-1 ring-inset ring-[#DDD0C8]/25",
-  completed: "bg-[#DDD0C8]/10 text-[#DDD0C8] ring-1 ring-inset ring-[#DDD0C8]/20",
-  failed: "bg-[#DDD0C8]/10 text-[#DDD0C8] ring-1 ring-inset ring-[#DDD0C8]/20"
-};
+function statusTone(status: string) {
+  if (status === "completed") return "success" as const;
+  if (status === "failed") return "danger" as const;
+  if (status === "running") return "brand" as const;
+  return "neutral" as const;
+}
 
 export default function SessionsPage() {
   const [sessions, setSessions] = useState<CandidateSession[]>([]);
@@ -34,91 +36,94 @@ export default function SessionsPage() {
   }, [loadSessions]);
 
   return (
-    <section className="grid gap-6">
-      <div className="flex flex-col gap-4 rounded-2xl border border-[#DDD0C8]/20 bg-[#323232]/60 p-5 shadow-[0_0_0_1px_rgba(221,208,200,0.2)] sm:flex-row sm:items-center sm:justify-between">
+    <section className="mx-auto max-w-6xl px-6 py-8">
+      <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
         <div>
-          <p className="text-xs font-medium uppercase tracking-[0.2em] text-[#DDD0C8]">Monitoring</p>
-          <h1 className="mt-2 text-3xl font-semibold tracking-tight text-[#DDD0C8]">Candidate Sessions</h1>
-          <p className="mt-2 text-sm text-[#DDD0C8]/80">Live and completed proctoring sessions across the active exam fleet.</p>
+          <p className="text-xs font-medium uppercase tracking-[0.16em] text-slate-500">Reviewer dashboard</p>
+          <h1 className="mt-2 text-3xl font-semibold text-slate-900">Candidate sessions</h1>
+          <p className="mt-2 text-sm text-slate-600">Scores, proctoring risk, and review status for each assessment.</p>
         </div>
-        <Link className="inline-flex items-center justify-center rounded-lg bg-[#323232] px-4 py-2.5 text-sm font-medium text-[#DDD0C8] transition hover:bg-[#323232]/90" href="/sessions/new">
-          New Session
+        <Link href="/sessions/new">
+          <Button>New Session</Button>
         </Link>
       </div>
 
       {error ? (
-        <div className="rounded-2xl border border-[#DDD0C8]/30 bg-[#323232]/80 p-5">
-          <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
-            <div>
-              <p className="text-sm font-medium uppercase tracking-[0.2em] text-[#DDD0C8]">Runtime issue</p>
-              <h2 className="mt-2 text-xl font-semibold text-[#DDD0C8]">Unable to load sessions</h2>
-              <p className="mt-1 text-sm text-[#DDD0C8]/80">The session list could not be retrieved right now. Please try again.</p>
-              <p className="mt-3 text-sm text-[#DDD0C8]">{error}</p>
-            </div>
-            <button
-              className="inline-flex items-center justify-center rounded-lg border border-[#DDD0C8]/30 bg-[#DDD0C8] px-4 py-2.5 text-sm font-medium text-[#323232] transition hover:bg-[#DDD0C8]/90"
-              onClick={loadSessions}
-              type="button"
-            >
-              Retry
-            </button>
-          </div>
+        <div className="mt-6 rounded-card border border-red-200 bg-red-50 p-4 text-sm text-danger">
+          {error}
+          <Button className="ml-4" onClick={loadSessions} variant="secondary">
+            Retry
+          </Button>
         </div>
       ) : null}
 
-      {loading && !error ? (
-        <div className="rounded-2xl border border-[#DDD0C8]/20 bg-[#323232]/60 p-4">
-          <div className="grid gap-3">
-            {Array.from({ length: 4 }).map((_, idx) => (
-              <div className="grid grid-cols-[1.5fr_1.5fr_0.8fr_1.2fr] gap-3 animate-pulse" key={idx}>
-                <div className="h-11 rounded-lg bg-[#DDD0C8]/15" />
-                <div className="h-11 rounded-lg bg-[#DDD0C8]/15" />
-                <div className="h-11 rounded-lg bg-[#DDD0C8]/15" />
-                <div className="h-11 rounded-lg bg-[#DDD0C8]/15" />
-              </div>
-            ))}
-          </div>
-        </div>
-      ) : null}
+      {loading && !error ? <div className="mt-6 h-40 animate-pulse rounded-card border border-slate-200 bg-white" /> : null}
 
       {!loading && !error && sessions.length === 0 ? (
-        <div className="rounded-2xl border border-dashed border-[#DDD0C8]/30 bg-[#323232]/40 p-10 text-center">
-          <h2 className="text-xl font-semibold text-[#DDD0C8]">No active sessions</h2>
-          <p className="mt-2 text-sm text-[#DDD0C8]/80">There are no candidate sessions yet. Create one to begin monitoring.</p>
-          <Link className="mt-5 inline-flex items-center justify-center rounded-lg bg-[#323232] px-4 py-2.5 text-sm font-medium text-[#DDD0C8] transition hover:bg-[#323232]/90" href="/sessions/new">
-            Create session
-          </Link>
+        <div className="mt-6 rounded-card border border-dashed border-slate-300 bg-white p-10 text-center">
+          <h2 className="text-lg font-semibold text-slate-900">No sessions yet</h2>
+          <p className="mt-2 text-sm text-slate-600">Start an assessment or create a monitored session.</p>
         </div>
       ) : null}
 
       {!loading && !error && sessions.length > 0 ? (
-        <div className="overflow-hidden rounded-2xl border border-[#DDD0C8]/20 bg-[#323232]/60 shadow-[0_0_0_1px_rgba(221,208,200,0.2)]">
-          <table className="w-full border-collapse text-sm text-[#DDD0C8]/90">
-            <thead className="bg-[#323232]/80 text-left text-xs uppercase tracking-[0.18em] text-[#DDD0C8]/80">
+        <div className="mt-6 overflow-hidden rounded-card border border-slate-200 bg-white shadow-card">
+          <table className="w-full border-collapse text-sm">
+            <thead className="bg-slate-50 text-left text-xs uppercase tracking-[0.12em] text-slate-500">
               <tr>
                 <th className="px-4 py-3 font-medium">Candidate</th>
-                <th className="px-4 py-3 font-medium">Exam</th>
+                <th className="px-4 py-3 font-medium">Assessment</th>
+                <th className="px-4 py-3 font-medium">Score</th>
+                <th className="px-4 py-3 font-medium">Duration</th>
+                <th className="px-4 py-3 font-medium">Risk</th>
                 <th className="px-4 py-3 font-medium">Status</th>
-                <th className="px-4 py-3 font-medium">Created</th>
               </tr>
             </thead>
             <tbody>
-              {sessions.map((session) => (
-                <tr className="border-t border-[#DDD0C8]/15 transition-colors hover:bg-[#DDD0C8]/5" key={session.id}>
-                  <td className="px-4 py-4">
-                    <Link className="font-medium text-[#DDD0C8] transition hover:text-[#DDD0C8]/80" href={`/sessions/${session.id}`}>
-                      {session.candidate_name}
-                    </Link>
-                  </td>
-                  <td className="px-4 py-4 text-[#DDD0C8]/80">{session.exam_name ?? session.exam_id}</td>
-                  <td className="px-4 py-4">
-                    <span className={`inline-flex items-center rounded-full px-2.5 py-1 text-xs font-medium capitalize ${statusStyles[session.status] ?? statusStyles.created}`}>
-                      {session.status}
-                    </span>
-                  </td>
-                  <td className="px-4 py-4 text-[#DDD0C8]/80">{new Date(session.created_at).toLocaleString()}</td>
-                </tr>
-              ))}
+              {sessions.map((session) => {
+                const score = session.exam_score;
+                const risk = session.risk_score;
+                const duration = session.duration_seconds;
+                const review = (risk ?? 0) > 20 || (session.status === "completed" && (risk ?? 0) > 0);
+                return (
+                  <tr className="border-t border-slate-100 hover:bg-slate-50" key={session.id}>
+                    <td className="px-4 py-4">
+                      <Link className="font-medium text-brand hover:underline" href={`/sessions/${session.id}`}>
+                        {session.candidate_name}
+                      </Link>
+                    </td>
+                    <td className="px-4 py-4 text-slate-600">{session.exam_name ?? session.exam_id}</td>
+                    <td className="px-4 py-4">{score == null ? "—" : `${score}%`}</td>
+                    <td className="px-4 py-4 text-slate-600">
+                      {duration == null ? "—" : `${Math.floor(duration / 60)}m ${duration % 60}s`}
+                    </td>
+                    <td className="px-4 py-4">
+                      {risk == null ? (
+                        "—"
+                      ) : (
+                        <Badge tone={riskLabel(risk) === "HIGH" ? "danger" : riskLabel(risk) === "MEDIUM" ? "warning" : "success"}>
+                          {riskLabel(risk)} · {risk}
+                        </Badge>
+                      )}
+                    </td>
+                    <td className="px-4 py-4">
+                      <div className="flex flex-wrap items-center gap-2">
+                        <Badge tone={statusTone(session.status)}>{session.status}</Badge>
+                        {review && session.status === "completed" ? <Badge tone="warning">Review required</Badge> : null}
+                        {session.status === "completed" ? (
+                          <Link className="text-xs text-brand hover:underline" href={`/exam/${session.id}/results`}>
+                            Results
+                          </Link>
+                        ) : (
+                          <Link className="text-xs text-brand hover:underline" href={`/exam/${session.id}`}>
+                            Exam
+                          </Link>
+                        )}
+                      </div>
+                    </td>
+                  </tr>
+                );
+              })}
             </tbody>
           </table>
         </div>

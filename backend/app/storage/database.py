@@ -37,6 +37,7 @@ def initialize_database() -> None:
             CREATE TABLE IF NOT EXISTS detection_statuses (
                 session_id TEXT PRIMARY KEY,
                 face_present INTEGER NOT NULL,
+                face_count INTEGER NOT NULL DEFAULT 0,
                 gaze_direction TEXT NOT NULL,
                 eye_ratio REAL NOT NULL,
                 mouth_moving INTEGER NOT NULL,
@@ -80,6 +81,14 @@ def initialize_database() -> None:
         )
         _ensure_column(connection, "detection_statuses", "audio_detected", "INTEGER NOT NULL DEFAULT 0")
         _ensure_column(connection, "detection_statuses", "error", "TEXT")
+        _ensure_column(connection, "detection_statuses", "face_count", "INTEGER NOT NULL DEFAULT 0")
+        _ensure_column(connection, "sessions", "exam_answers", "TEXT NOT NULL DEFAULT '{}'")
+        _ensure_column(connection, "sessions", "exam_score", "REAL")
+        _ensure_column(connection, "sessions", "risk_score", "INTEGER")
+        _ensure_column(connection, "sessions", "duration_seconds", "INTEGER")
+        _ensure_column(connection, "sessions", "mcq_correct", "INTEGER")
+        _ensure_column(connection, "sessions", "mcq_total", "INTEGER")
+        _ensure_column(connection, "sessions", "coding_passed", "INTEGER")
 
 
 def _ensure_column(connection: sqlite3.Connection, table: str, column: str, definition: str) -> None:

@@ -10,7 +10,7 @@ from app.core.config import get_settings
 router = APIRouter(prefix="/media", tags=["media"])
 
 
-ALLOWED_ROOT_NAMES = {"reports", "recordings"}
+ALLOWED_ROOT_NAMES = {"reports", "recordings", "output"}
 
 
 @router.get("/{encoded_path:path}")

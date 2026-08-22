@@ -8,14 +8,20 @@ from app.services.session_manager import session_manager
 
 
 SEVERITY = {
-    "FACE_DISAPPEARED": 1,
+    "FACE_DISAPPEARED": 2,
+    "NO_FACE": 2,
     "GAZE_AWAY": 2,
-    "MOUTH_MOVING": 3,
+    "MOUTH_MOVING": 1,
     "MULTIPLE_FACES": 4,
-    "OBJECT_DETECTED": 5,
+    "OBJECT_DETECTED": 4,
     "VOICE_DETECTED": 3,
     "SPEECH_VIOLATION": 3,
     "SESSION_RECORDING": 0,
+    "TAB_SWITCH": 2,
+    "FULLSCREEN_EXIT": 2,
+    "SCREEN_SHARE_STOPPED": 4,
+    "CAMERA_STOPPED": 4,
+    "MICROPHONE_STOPPED": 2,
 }
 
 

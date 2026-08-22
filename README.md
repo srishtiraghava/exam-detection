@@ -9,33 +9,18 @@ A computer vision system that monitors online exams in real time. It detects sus
 
 ## Features
 
-<<<<<<< HEAD
-- **Face Presence Detection**: Identifies when student's face is not visible
-- **Eye Movement Tracking**: Detects excessive eye movements (left/right/up/down)
-- **Gaze Analysis**: Monitors direction of eye gaze
-- **Mouth Movement Detection**: Identifies potential talking or whispering
-- **Multi-Face Detection**: Alerts when multiple faces appear in frame
-- **Real-time Alerts**: Flags suspicious activities with timestamps
-- **Dashboard**: Visual interface showing detection metrics and alerts
-- **Object Delection**: Object Detection: Detects prohibited objects (cell phone, book, etc.).
-- **Screen Recoding**: Continuously captures examinee's screen activity
-- **Audio Detection**: Monitors for voice/whispering in student's environment
-- **Alert Speaker**: Delivers real-time verbal warnings via text-to-speech
-- **Report Generation**: Creates detailed visual PDF and HTML reports with violations summary, heatmaps, and activity timeline  
-- **Keystroke Dynamics & Cryptographic Verification**: Captures timing metrics (Hold Time, Inter-Key Gap) to detect suspicious typing behavior, backed by a Merkle Tree for payload integrity (accessible via `/exam` mock interface).
-=======
+- **Candidate assessment flow** — instructions, system check, timed MCQ + coding exam, results report
+- **Browser proctoring** — webcam, microphone, screen recording, tab-switch and fullscreen monitoring
 - **Face presence detection** — alerts when the candidate's face leaves the frame
+- **Multi-face detection** — flags when more than one person appears, with debounce and screenshot evidence
 - **Eye movement and gaze tracking** — detects excessive looking away from the screen
 - **Mouth movement detection** — flags potential talking or whispering
-- **Multi-face detection** — alerts when more than one person appears
-- **Object detection** — identifies prohibited items (phone, book, etc.) via YOLO
-- **Audio monitoring** — detects voice activity and speech violations
-- **Screen recording** — captures the candidate's screen during the session
-- **Real-time dashboard** — live WebSocket feed of detection status and violations
-- **Evidence capture** — saves screenshots and recordings linked to each incident
-- **Report generation** — produces HTML/PDF reports with violation summaries and timelines
-- **Voice alerts** — optional text-to-speech warnings during the exam
->>>>>>> 7626e3dd9a9b9cf400ed7e05194266ec5a104485
+- **Object detection** — identifies prohibited items (phone, book, etc.) via YOLO in local detection mode
+- **Audio monitoring** — detects voice activity in local detection mode
+- **Evidence capture** — screenshots linked to each incident, shown in the results timeline
+- **Reviewer dashboard** — scores, proctoring risk, and session reports
+- **Report generation** — produces HTML/PDF reports with violation summaries
+- **Keystroke dynamics** — optional Merkle-tree verification in the legacy Flask exam UI
 
 ## Architecture
 
@@ -108,12 +93,17 @@ npm run dev
 
 Open http://localhost:3000
 
-### 4. Run a proctoring session
+### 4. Candidate assessment (hackathon demo)
 
-1. Go to **Create session** and fill in candidate and exam details.
-2. On the session page, click **Start** to launch the detection worker (uses your webcam).
-3. Monitor live status and violations on the dashboard.
-4. Click **Stop** when finished, then open **Report** to generate and download a violation report.
+1. Open the Assessment Center landing page.
+2. Click **Start Assessment** (creates a session for Alex Morgan).
+3. Run the system check: camera, microphone, screen sharing, fullscreen.
+4. Click **Start Assessment** to begin the 20-minute MCQ + coding exam.
+5. Webcam frames are sent to the Python detector. Multiple faces, tab switches, and fullscreen exits are recorded with screenshots.
+6. Submit to see score, risk, timeline, and evidence.
+7. Open **Reviewer Dashboard** (`/sessions`) for the session table.
+
+Local detection (`Start local detection` on a session page) still uses the server webcam and the original OpenCV worker.
 
 ## Configuration
 
@@ -196,49 +186,8 @@ python src/main.py
 
 # Flask dashboard (separate terminal)
 python src/dashboard/app.py
-<<<<<<< HEAD
-```
-4. Access the dashboard at `http://localhost:5000`
-5. Access the mock exam verification interface at `http://localhost:5000/exam`
-
-## Keystroke Dynamics & Cryptographic Verification
-
-This feature provides client-side behavioral analysis and cryptographic integrity for typing patterns.
-
-### What is Collected
-- **Hold Time (HT)**: Duration between keydown and keyup.
-- **Inter-Key Gap (IKG)**: Duration between the previous keyup and current keydown.
-- **Sequence and Timestamps**: Relative timing data of the keystrokes.
-
-### What is NOT Collected
-- **Actual Typed Characters**: We do not store `event.key`, `event.code`, words, or passwords. This ensures candidate privacy.
-
-### Cryptographic Integrity (Merkle Tree)
-To prevent payload tampering before submission, the browser constructs a **SHA-256 Merkle Tree** over the deterministic sequence of typing events. The client sends the payload and the calculated Merkle Root to the server. The Flask backend independently recomputes the Merkle Root from the payload and verifies it.
-
-If any of the following occur, the server will log a `MERKLE_TAMPERING` alert:
-- An event was deleted, added, or reordered.
-- A timestamp, Hold Time, or Inter-Key Gap was modified.
-
-### Behavioral Anomaly Detection
-The server independently calculates variance and counts the number of unusually fast keystrokes (IKG < 25ms). If it detects near-zero variance or a high ratio of suspicious events, it logs a `KEYSTROKE_ANOMALY` alert, which is displayed in the dashboard.
-
-## System Architecture
-```
-exam_cheating_detection/
-├── config/              # Configuration files
-├── models/              # Pretrained models
-├── src/                 # Source code
-│   ├── detection/       # Detection modules
-│   ├── reporting/       # Reporting application
-│   ├── utils/           # Utility functions
-│   ├── dashboard/       # Web dashboard
-│   └── main.py          # Main application
-├── logs/                # Session logs
-└── recordings/          # Recorded video sessions
-=======
-# → http://localhost:5000
->>>>>>> 7626e3dd9a9b9cf400ed7e05194266ec5a104485
+# Dashboard: http://localhost:5000
+# Mock exam verification: http://localhost:5000/exam
 ```
 
 The recommended workflow is the FastAPI + Next.js stack described above.

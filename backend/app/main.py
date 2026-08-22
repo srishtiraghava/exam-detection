@@ -21,10 +21,13 @@ from fastapi.middleware.cors import CORSMiddleware
 
 ROOT_DIR = Path(__file__).resolve().parents[2]
 SRC_DIR = ROOT_DIR / "src"
+BACKEND_DIR = Path(__file__).resolve().parents[1]
 
 # Make the existing exam-detection detection engine importable.
 if str(SRC_DIR) not in sys.path:
     sys.path.insert(0, str(SRC_DIR))
+if str(BACKEND_DIR) not in sys.path:
+    sys.path.insert(0, str(BACKEND_DIR))
 
 
 # ============================================================
@@ -32,6 +35,8 @@ if str(SRC_DIR) not in sys.path:
 # ============================================================
 
 from app.api.routes import (
+    exam,
+    frame_ingest,
     health,
     media,
     reports,
@@ -87,6 +92,11 @@ app.include_router(
 )
 
 app.include_router(
+    exam.router,
+    prefix=settings.api_prefix,
+)
+
+app.include_router(
     reports.router,
     prefix=settings.api_prefix,
 )
@@ -98,6 +108,10 @@ app.include_router(
 
 app.include_router(
     websocket.router,
+)
+
+app.include_router(
+    frame_ingest.router,
 )
 
 

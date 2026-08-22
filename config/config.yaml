@@ -1,50 +1,46 @@
 global:
-  output_path: "./output"   # Root folder for captures and outputs
+  output_path: "./output"
 
 video:
   source: 0
-  resolution: [1280, 720]
-  video:
-  source: 0                   # 0 for default webcam
   resolution: [1280, 720]
   fps: 30
   recording_path: "./recordings"
 
 screen:
-  monitor_index: 0           # 0 for primary monitor
-  fps: 15                    # Lower FPS for screen recording
-  recording: true            # Enable/disable screen recording
-
+  monitor_index: 0
+  fps: 15
+  recording: true
 
 detection:
   face:
-    detection_interval: 5     # frames
+    detection_interval: 5
     min_confidence: 0.8
   eyes:
-    gaze_threshold: 2          # seconds
-    blink_threshold: 0.3       # EAR threshold for blink detection
-    gaze_sensitivity: 15       # pixels threshold for gaze detection
-    consecutive_frames: 3      # frames for gaze change detection
+    gaze_threshold: 2
+    blink_threshold: 0.3
+    gaze_sensitivity: 15
+    consecutive_frames: 3
   mouth:
-    movement_threshold: 3     # consecutive frames
+    movement_threshold: 3
   multi_face:
-    alert_threshold: 5        # frames
+    alert_threshold: 8
   objects:
-    min_confidence: 0.65  # Detection confidence threshold
-    detection_interval: 5 # frames between detections
-    max_fps: 5            # Maximum detection frames per second
+    min_confidence: 0.65
+    detection_interval: 5
+    max_fps: 5
   audio_monitoring:
     enabled: true
     sample_rate: 16000
     energy_threshold: 0.001
     zcr_threshold: 0.35
-    whisper_enabled: false  # Enable only when needed
+    whisper_enabled: false
     whisper_model: "tiny.en"
-        
+
 logging:
   log_path: "./logs"
-  alert_cooldown: 10          # seconds
+  alert_cooldown: 10
   alert_system:
-    voice_alerts: true  # Enable/disable voice alerts
-    alert_volume: 0.8   # Volume level (0.0 to 1.0)
-    cooldown: 10        # Minimum seconds between same alert
+    voice_alerts: true
+    alert_volume: 0.8
+    cooldown: 10

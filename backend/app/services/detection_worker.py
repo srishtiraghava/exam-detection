@@ -110,6 +110,7 @@ class DetectionWorker:
                 status.gaze_direction, status.eye_ratio = detectors[1].track_eyes(frame)
                 status.mouth_moving = detectors[2].monitor_mouth(frame)
                 status.multiple_faces = detectors[3].detect_multiple_faces(frame)
+                status.face_count = detectors[3].last_face_count
                 status.objects_detected = detectors[4].detect_objects(frame)
 
                 self._submit(session_manager.set_status(self.session_id, status))

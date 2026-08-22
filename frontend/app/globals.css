@@ -7,22 +7,28 @@
 }
 
 html {
-  background: #DDD0C8;
+  background: #f7f6f3;
 }
 
 body {
   margin: 0;
   min-height: 100vh;
-  background: radial-gradient(circle at top, rgba(221, 208, 200, 0.9), rgba(50, 50, 50, 1) 45%);
-  color: #323232;
+  background: #f7f6f3;
+  color: #0f172a;
 }
 
 button,
-input {
+input,
+textarea,
+select {
   font: inherit;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+}
+
+::selection {
+  background: rgba(11, 31, 58, 0.12);
 }
